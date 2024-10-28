@@ -3,7 +3,7 @@ import { AnimatePresence, motion } from 'framer-motion'
 import { Card, CardContent } from '@/components/ui/card'
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Button } from '@/components/ui/button';
-import { , MoreHorizontal, Share2, ThumbsUp } from 'lucide-react';
+import { MoreHorizontal, Share2, ThumbsUp } from 'lucide-react';
 import { Separator } from '@/components/ui/separator';
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
 import PostComments from '@/app/posts/PostComments';
@@ -114,7 +114,7 @@ const PostsContent = ({post,isLiked,onShare,onComment,onLike}) => {
                       variant="ghost" className={`flex-1 dark:hover:bg-gray-600 `}
                       onClick={handleCommentClick}
                      >
-                      < className='mr-2 h-4 w-4'/> Comment
+                       <ThumbsUp className='mr-2 h-4 w-4'/> Comment
                      </Button>
                      <Dialog open={isShareDialogOpen} onOpenChange={setIsShareDialogOpen}>
                         <DialogTrigger asChild>
