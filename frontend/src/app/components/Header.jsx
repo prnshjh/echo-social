@@ -140,10 +140,10 @@ const Header = () => {
       <div className="mx-auto flex justify-between items-center p-2">
         <div className="flex items-center gap-2 md:gap-4">
           <Image
-            src="/images/Facebook_Logo.png"
+            src="/images/echo.jpg"
             width={40}
             height={40}
-            alt="facebook_logo"
+            alt="echo_logo"
             onClick={() => handleNavigation("/")}
             className="cursor-pointer"
           />

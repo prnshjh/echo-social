@@ -125,10 +125,10 @@ const Page = () => {
         <Card className="w-full max-w-md dark:text-white">
           <CardHeader>
             <CardTitle className="text-2xl font-bold text-center">
-              <span>Facebook</span>
+              <span>Echo</span>
             </CardTitle>
             <CardDescription className="text-center">
-              Connect with frineds and the world around you on facebook
+              Connect with frineds and the world around you on echo
             </CardDescription>
           </CardHeader>
 

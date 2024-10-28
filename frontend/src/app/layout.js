@@ -16,8 +16,8 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "Facebook",
-  description: "Making clone of Facebook",
+  title: "Echo-Social",
+  description: "Building a Social Media Platform for University Students",
 };
 
 export default function RootLayout({ children }) {

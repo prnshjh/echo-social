@@ -241,7 +241,7 @@ const checkUserAuth = async(req, res) =>{
 
         if(!user) return response(res,403, 'User not found')
 
-        return response(res,201, 'user retrived and allow to use facebook', user)
+        return response(res,201, 'user retrived and allow to use echo-social', user)
      } catch (error) {
         return response(res, 500, 'Internal server error', error.message)
      }
