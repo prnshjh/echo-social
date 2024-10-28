@@ -72,37 +72,37 @@ const LeftSideBar = () => {
           </div>
           <Button
             variant="ghost"
-            className="full justify-start"
+            className="w-full justify-start"
             onClick={() => handleNavigation("/")}
           >
             <Home className="mr-4" /> Home
           </Button>
           <Button
             variant="ghost"
-            className="full justify-start"
+            className="w-full justify-start"
             onClick={() => handleNavigation("/friends-list")}
           >
             <Users className="mr-4" /> Friends
           </Button>
           <Button
             variant="ghost"
-            className="full justify-start"
+            className="w-full justify-start"
             onClick={() => handleNavigation("/video-feed")}
           >
             <Video className="mr-4" /> Video
           </Button>
           <Button
             variant="ghost"
-            className="full justify-start"
+            className="w-full justify-start"
             onClick={() => handleNavigation(`/user-profile/${user?._id}`)}
           >
             <User className="mr-4" /> Profile
           </Button>
-          <Button variant="ghost" className="full justify-start">
+          <Button variant="ghost" className="w-full justify-start">
             <MessageCircle className="mr-4" /> Messages
           </Button>
 
-          <Button variant="ghost" className="full justify-start">
+          <Button variant="ghost" className="w-full justify-start">
             <Bell className="mr-4" /> Notification
           </Button>
         </nav>
