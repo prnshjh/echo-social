@@ -140,7 +140,7 @@ const Header = () => {
       <div className="mx-auto flex justify-between items-center p-2">
         <div className="flex items-center gap-2 md:gap-4">
           <Image
-            src="/images/echo.jpg"
+            src="/images/echo.png"
             width={40}
             height={40}
             alt="echo_logo"

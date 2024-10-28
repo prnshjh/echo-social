@@ -80,7 +80,7 @@ export default function Loader() {
     <div className="fixed inset-0 flex flex-col gap-4 items-center justify-center bg-blue-600 dark:bg-blue-200 z-50">
       <div className="relative w-40 h-40">
         <motion.img
-           src="/images/echo.jpg" // Replace with your JPG image path
+           src="/images/echo.png" // Replace with your JPG image path
           alt="Loading"
           className="w-full h-full object-cover"
           initial={{ opacity: 0, scale: 0.5 }}
