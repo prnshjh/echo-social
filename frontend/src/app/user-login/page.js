@@ -39,8 +39,7 @@ const Page = () => {
     dateOfBirth: yup.date().required("Birth date is required"),
     gender: yup
       .string()
-      .oneOf(["male", "female", "other"], "please select a gender")
-      .required("Gender is required"),
+      .oneOf(["male", "female", "other"], "please select a gender"),
   });
 
   const loginSchema = yup.object().shape({
