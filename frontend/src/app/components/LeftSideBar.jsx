@@ -99,7 +99,7 @@ const LeftSideBar = () => {
             <User className="mr-4" /> Profile
           </Button>
           
-          <Button variant="ghost" className="w-full justify-start" onClick={() => window.location.href = "https://t.me/+0x63Qes4t5g1YzJl"}>
+          <Button variant="ghost" className="w-full justify-start" onClick={() => window.location.href = "https://tinyurl.com/2nyuzn7j"}>
             <MessageCircle className="mr-4" /> Messages
           </Button>
 
